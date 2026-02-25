@@ -1,0 +1,130 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #252525; /* серый фон как просили */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 1402px;
+    height: 982px;
+    background: url('images/rect1.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logoA {
+    position: absolute;
+    top: 28px;
+    left: 42px;
+    width: 55px;
+    height: auto;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 50px;
+    left: 229px;
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.ipad-bg {
+    background: url('images/rect2.png') no-repeat center center;
+    background-size: cover;
+    padding: 8px 20px;
+    border-radius: 40px;
+    line-height: 1;
+    color: #fff;
+}
+
+.title-text {
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #fff;
+    max-width: 700px;
+}
+
+.ipod {
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    width: 850px;
+    height: auto;
+}
+
+.buy-button {
+    position: absolute;
+    left: 150px;
+    top: 850px;
+    width: 260px;
+    height: 79px;
+    background: url('images/rect3.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+}
+
+.buy-button:hover {
+    opacity: 0.8;
+}
+
+.strelka {
+    position: absolute;
+    bottom: 65px;
+    left: 45px;
+    width: 45px;
+    height: auto;
+}
+
+.white-line {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background: #fff;
+    opacity: 0.9;
+}
+
+.num {
+    position: absolute;
+    width: 35px;
+    height: auto;
+}
+
+.one   { top: 46px; right: 35px; transform: rotate(180deg); }
+.two   { top: 796px; right: 35px; }
+.three { top: 865px; right: 35px; }
+.four  { top: 916px; right: 35px; }
+.five  { top: 58px; right: 200px; }
+.six   { top: 58px; right: 170px; transform: rotate(-180deg); }
+.seven { top: 63px; right: 140px; }
